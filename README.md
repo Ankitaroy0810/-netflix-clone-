@@ -51,5 +51,6 @@ And finally deploy the build to firebase using the followinf command
 
 ### `firebase deploy`
 
-You will get a hossting URL in the end. Congratulations on deploying your own netflix clone.
+You will get a hosting URL in the end. Congratulations on deploying your own netflix clone.
 
+Built for DevSprint :: WebDev Track '22. Also using TMDB APIs. You can replace the the API key with yours in /src/request.js
