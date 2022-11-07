@@ -8,7 +8,8 @@ To build yoou need to install NodeJs. and run
 
 ### `npx create-react-app my-app`
 
-Delete everything except node_modules and download the files as zip and extract to root directory or just use `git clone https://github.com/Ankitaroy0810/-netflix-clone-\`
+Delete everything except node_modules and download the files as zip and extract to root directory or just use 
+`git clone https://github.com/Ankitaroy0810/-netflix-clone-\`
 
 then deploy localhost server in dev mode by the following commmand
 
@@ -53,4 +54,4 @@ And finally deploy the build to firebase using the followinf command
 
 You will get a hosting URL in the end. Congratulations on deploying your own netflix clone.
 
-Built for DevSprint :: WebDev Track '22. Also using TMDB APIs. You can replace the the API key with yours in /src/request.js
+`Built for DevSprint :: WebDev Track '22. Also using TMDB APIs. You can replace the the API key with yours in /src/request.js`
