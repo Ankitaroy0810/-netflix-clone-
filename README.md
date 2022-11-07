@@ -1,8 +1,6 @@
 # NETFLIX UI Clone By Ankita Roy
 
-## https://netflix-clone-ankitaroy.web.app
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## DEMO LINK - https://netflix-clone-ankitaroy.web.app
 
 ## Build
 
