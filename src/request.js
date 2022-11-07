@@ -11,4 +11,6 @@ const requests = {
     fetchDocumentaries: `/discocer/movie?api_key=${API_KEY}&with_genres=99`,
 }
 
+{/* Appending to baseURL from Axios.js . This returns an array of about 20 movie/tv shows in particular genre. Change API key in first line*/}
+
 export default requests;
