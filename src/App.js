@@ -17,6 +17,7 @@ function App() {
         isLargeRow/>
       <Row title="Trending Now" fetchURL={requests.fetchTrending}/>
       <Row title="Top Rated" fetchURL={requests.fetchTopRated}/>
+      {/* Free API limit reached */}
       {/*
       <Row title="Action Movies" fetchURL={requests.fetchActionMovies}/>
       <Row title="Comedy Movies" fetchURL={requests.fetchComedyMovies}/>
