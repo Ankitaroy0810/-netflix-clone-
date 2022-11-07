@@ -5,6 +5,7 @@ import './Row.css';
 const base_url ="https://image.tmdb.org/t/p/original/";
 
 function Row({title,fetchURL,isLargeRow}) {
+  //This creates rows for each segment. if isLargeRow it shows posters instead of thumbnails
   const [movies, setMovies] = useState([]);
   useEffect(()=>{
 
@@ -18,6 +19,7 @@ function Row({title,fetchURL,isLargeRow}) {
   }, [fetchURL]);
 
   //console.table(movies)
+  
 
   return (
     <div className='row'>
@@ -36,5 +38,6 @@ function Row({title,fetchURL,isLargeRow}) {
     </div>
   )
 }
+
 
 export default Row;
